@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+	style="@style/Theme.Aislert">
+    <item
+        android:id="@+id/menu_addItem"
+        android:icon="@drawable/ic_menu_add"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="@string/menu_addItem"/>
+    <item
+        android:id="@+id/menu_scanItem"
+        android:icon="@drawable/ic_menu_scan"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="@string/menu_scanItem"/>
+
+</menu>

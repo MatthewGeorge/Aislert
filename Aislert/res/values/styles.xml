@@ -1,0 +1,99 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.Sherlock.Light.DarkActionBar">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme -->
+    <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    <style name="Theme.Aislert" parent="AppBaseTheme">
+        <item name="android:actionMenuTextColor">@color/actionbar_text</item>
+        <item name="actionBarItemBackground">@drawable/selectable_background_aislert</item>
+        <item name="popupMenuStyle">@style/aislert_PopupMenu</item>
+        <item name="dropDownListViewStyle">@style/aislert_DropDownListView</item>
+        <item name="actionBarTabStyle">@style/aislert_ActionBarTabStyle</item>
+        <item name="actionDropDownStyle">@style/aislert_DropDownNav</item>
+        <item name="actionBarStyle">@style/aislert_solid_ActionBar</item>
+
+        <item name="android:actionBarItemBackground">@drawable/selectable_background_aislert</item>
+        <item name="android:popupMenuStyle">@style/aislert_PopupMenu</item>
+        <item name="android:dropDownListViewStyle">@style/aislert_DropDownListView</item>
+        <item name="android:actionBarTabStyle">@style/aislert_ActionBarTabStyle</item>
+        <item name="android:actionDropDownStyle">@style/aislert_DropDownNav</item>
+        <item name="android:actionBarStyle">@style/aislert_solid_ActionBar</item>
+        <item name="android:panelBackground">@drawable/menu_hardkey_panel_aislert</item>
+        
+     <!-- Light.DarkActionBar specific -->
+        <item name="actionBarWidgetTheme">@style/Theme.aislert.widget</item>
+        <item name="android:actionBarWidgetTheme">@style/Theme.aislert.widget</item>
+
+    </style>
+
+    <style name="aislert_solid_ActionBar" parent="@style/Widget.Sherlock.Light.ActionBar.Solid.Inverse">
+        <item name="background">@drawable/ab_solid_aislert</item>
+        <item name="backgroundStacked">@drawable/ab_stacked_solid_aislert</item>
+        <item name="backgroundSplit">@drawable/ab_bottom_solid_aislert</item>
+        <item name="progressBarStyle">@style/aislert_ProgressBar</item>
+        <item name="android:background">@drawable/ab_solid_aislert</item>
+        <item name="android:backgroundStacked">@drawable/ab_stacked_solid_aislert</item>
+        <item name="android:backgroundSplit">@drawable/ab_bottom_solid_aislert</item>
+        <item name="android:progressBarStyle">@style/aislert_ProgressBar</item>
+    </style>
+
+    <style name="aislert_transparent_ActionBar" parent="@style/Widget.Sherlock.ActionBar">
+        <item name="background">@drawable/ab_transparent_aislert</item>
+        <item name="progressBarStyle">@style/aislert_ProgressBar</item>
+        <item name="android:background">@drawable/ab_transparent_aislert</item>
+        <item name="android:progressBarStyle">@style/aislert_ProgressBar</item>
+    </style>
+    
+    <style name="aislert_mainWindow" parent="AppBaseTheme">
+        <item name="android:background">@color/background_window</item>
+        <item name="android:padding">6dp</item>
+    </style>
+	
+    <style name="aislert_PopupMenu" parent="@style/Widget.Sherlock.ListPopupWindow">	
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_aislert</item>	
+    </style>
+	
+    <style name="aislert_DropDownListView" parent="@style/Widget.Sherlock.ListView.DropDown">
+        <item name="android:listSelector">@drawable/selectable_background_aislert</item>
+    </style>
+
+    <style name="aislert_ActionBarTabStyle" parent="@style/Widget.Sherlock.ActionBar.TabView">
+        <item name="background">@drawable/tab_indicator_ab_aislert</item>
+
+        <item name="android:background">@drawable/tab_indicator_ab_aislert</item>
+    </style>
+	
+    <style name="aislert_DropDownNav" parent="@style/Widget.Sherlock.Spinner.DropDown.ActionBar">
+        <item name="background">@drawable/spinner_background_ab_aislert</item>
+
+        <item name="android:background">@drawable/spinner_background_ab_aislert</item>
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_aislert</item>
+        <item name="android:dropDownSelector">@drawable/selectable_background_aislert</item>
+    </style>
+    
+    <style name="aislert_ProgressBar" parent="@style/Widget.Sherlock.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_horizontal_aislert</item>
+    </style>
+    
+    <!-- this style is only referenced in a Light.DarkActionBar based theme -->
+    <style name="Theme.aislert.widget" parent="@style/Theme.Sherlock">
+        <item name="popupMenuStyle">@style/aislert_PopupMenu</item>
+        <item name="dropDownListViewStyle">@style/aislert_DropDownListView</item>
+        
+        <item name="android:popupMenuStyle">@style/aislert_PopupMenu</item>
+        <item name="android:dropDownListViewStyle">@style/aislert_DropDownListView</item>
+    </style>
+    
+
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Aislert</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_addItem">Add Item</string>
+    <string name="menu_scanItem">Scan Item</string>
+    <string name="title_activity_list">ListActivity</string>
+    <string name="title_activity_external_fonts">ExternalFonts</string>
+    <string name="button_lists">Lists</string>
+    <string name="items_list">Apples, Oranges</string>
+
+</resources>
