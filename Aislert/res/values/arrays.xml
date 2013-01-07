@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lists">
+        <item>My Grocery List</item>
+        <item>Grocery List 1</item>
+        <item>Kevins List (shared)</item>
+        <item>Add New List</item>
+    </string-array>
+</resources>

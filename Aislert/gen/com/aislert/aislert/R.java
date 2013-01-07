@@ -8,6 +8,9 @@
 package com.aislert.aislert;
 
 public final class R {
+    public static final class array {
+        public static final int lists=0x7f0b0000;
+    }
     public static final class attr {
         /**  Custom divider drawable to use for elements in the action bar. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
@@ -685,13 +688,14 @@ containing a value of this type.
         public static final int abs__bright_foreground_inverse_holo_dark=0x7f060006;
         public static final int abs__bright_foreground_inverse_holo_light=0x7f060007;
         public static final int abs__holo_blue_light=0x7f060008;
-        public static final int abs__primary_text_disable_only_holo_dark=0x7f06000c;
-        public static final int abs__primary_text_disable_only_holo_light=0x7f06000d;
-        public static final int abs__primary_text_holo_dark=0x7f06000e;
-        public static final int abs__primary_text_holo_light=0x7f06000f;
-        public static final int actionbar_text=0x7f06000b;
+        public static final int abs__primary_text_disable_only_holo_dark=0x7f06000d;
+        public static final int abs__primary_text_disable_only_holo_light=0x7f06000e;
+        public static final int abs__primary_text_holo_dark=0x7f06000f;
+        public static final int abs__primary_text_holo_light=0x7f060010;
+        public static final int actionbar_text=0x7f06000c;
+        public static final int background_list=0x7f06000a;
         public static final int background_window=0x7f060009;
-        public static final int pressed_aislert=0x7f06000a;
+        public static final int pressed_aislert=0x7f06000b;
     }
     public static final class dimen {
         /**  Default height of an action bar. 
@@ -991,20 +995,21 @@ containing a value of this type.
         public static final int abs__up=0x7f04000b;
         public static final int disableHome=0x7f040009;
         public static final int edit_query=0x7f040027;
-        public static final int gotham_book=0x7f040034;
-        public static final int gotham_medium=0x7f040035;
+        public static final int gotham_book=0x7f040035;
+        public static final int gotham_medium=0x7f040036;
         public static final int homeAsUp=0x7f040006;
-        public static final int list=0x7f040036;
+        public static final int list=0x7f040037;
         public static final int listMode=0x7f040002;
-        public static final int menu_addItem=0x7f040037;
-        public static final int menu_scanItem=0x7f040038;
-        public static final int menu_settings=0x7f040039;
+        public static final int listView1=0x7f040034;
+        public static final int menu_addItem=0x7f040038;
+        public static final int menu_scanItem=0x7f040039;
+        public static final int menu_settings=0x7f04003a;
         public static final int normal=0x7f040001;
-        public static final int scrollView1=0x7f040033;
         public static final int showCustom=0x7f040008;
         public static final int showHome=0x7f040005;
         public static final int showTitle=0x7f040007;
         public static final int tabMode=0x7f040003;
+        public static final int textView1=0x7f040033;
         public static final int useLogo=0x7f040004;
         public static final int wrap_content=0x7f040000;
     }
@@ -1042,8 +1047,8 @@ containing a value of this type.
         public static final int view_list=0x7f03001b;
     }
     public static final class menu {
-        public static final int activity_list=0x7f0b0000;
-        public static final int activity_main=0x7f0b0001;
+        public static final int activity_list=0x7f0c0000;
+        public static final int activity_main=0x7f0c0001;
     }
     public static final class string {
         /**  Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] 
@@ -1092,13 +1097,14 @@ containing a value of this type.
          */
         public static final int abs__shareactionprovider_share_with_application=0x7f090009;
         public static final int app_name=0x7f09000f;
-        public static final int button_lists=0x7f090015;
-        public static final int hello_world=0x7f090010;
-        public static final int items_list=0x7f090016;
-        public static final int menu_addItem=0x7f090011;
-        public static final int menu_scanItem=0x7f090012;
-        public static final int title_activity_external_fonts=0x7f090014;
-        public static final int title_activity_list=0x7f090013;
+        public static final int button_lists=0x7f090016;
+        public static final int hello_world=0x7f090011;
+        public static final int items_list=0x7f090017;
+        public static final int menu_addItem=0x7f090012;
+        public static final int menu_scanItem=0x7f090013;
+        public static final int suggestions=0x7f090010;
+        public static final int title_activity_external_fonts=0x7f090015;
+        public static final int title_activity_list=0x7f090014;
     }
     public static final class style {
         /** 

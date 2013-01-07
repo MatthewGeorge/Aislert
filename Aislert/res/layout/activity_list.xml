@@ -3,26 +3,23 @@
     style="@style/aislert_mainWindow"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/background_window"
+    android:padding="8dp"
     tools:context=".ListActivity" >
 
     <TextView
+        android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:text="@string/hello_world" />
+        android:text="@string/suggestions" />
 
-    <ScrollView
-        android:id="@+id/scrollView1"
-        android:layout_width= "fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="8dp" >
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:background="@color/background_list" >
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" >
-        </LinearLayout>
-    </ScrollView>
+    </ListView>
 
 </RelativeLayout>

@@ -2,7 +2,8 @@
 <resources>
 
     <string name="app_name">Aislert</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="suggestions">Suggestions:</string>
+    <string name="hello_world">Hello World!</string>
     <string name="menu_addItem">Add Item</string>
     <string name="menu_scanItem">Scan Item</string>
     <string name="title_activity_list">ListActivity</string>

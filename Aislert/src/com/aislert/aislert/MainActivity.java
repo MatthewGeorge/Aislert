@@ -23,6 +23,7 @@ public class MainActivity extends SherlockActivity {
         tv1.setTypeface(tf1);
         tv2.setTypeface(tf2);
         
+        //List Button
         Button List = (Button) findViewById(R.id.list);
 		List.setOnClickListener(new View.OnClickListener() {
 			

@@ -31,6 +31,7 @@
 	    android:padding="8dp"
 	    android:text="@string/button_lists"
 	    android:textAlignment="center"
-	    android:textAllCaps="true" />
+	    android:textAllCaps="true"
+	/>
 
 </RelativeLayout>
