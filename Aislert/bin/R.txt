@@ -314,6 +314,7 @@ int id abs__textButton 0x7f040013
 int id abs__title 0x7f04001b
 int id abs__titleDivider 0x7f04001c
 int id abs__up 0x7f04000b
+int id cityState 0x7f040039
 int id disableHome 0x7f040009
 int id edit_query 0x7f040027
 int id gotham_book 0x7f040035
@@ -322,10 +323,12 @@ int id homeAsUp 0x7f040006
 int id list 0x7f040037
 int id listMode 0x7f040002
 int id listView1 0x7f040034
-int id menu_addItem 0x7f040038
-int id menu_scanItem 0x7f040039
-int id menu_settings 0x7f04003a
+int id menu_addItem 0x7f04003b
+int id menu_scanItem 0x7f04003c
+int id menu_settings 0x7f04003d
+int id name 0x7f040038
 int id normal 0x7f040001
+int id phone 0x7f04003a
 int id showCustom 0x7f040008
 int id showHome 0x7f040005
 int id showTitle 0x7f040007
@@ -361,7 +364,7 @@ int layout activity_list 0x7f030017
 int layout activity_main 0x7f030018
 int layout sherlock_spinner_dropdown_item 0x7f030019
 int layout sherlock_spinner_item 0x7f03001a
-int layout view_list 0x7f03001b
+int layout view_list_row 0x7f03001b
 int menu activity_list 0x7f0c0000
 int menu activity_main 0x7f0c0001
 int string abs__action_bar_home_description 0x7f090000
